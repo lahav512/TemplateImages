@@ -21,7 +21,7 @@ RUN source ~/.zshrc
 # other instructions
 
 # Install CUDA toolkit (nvcc)
-# RUN apt-get update && apt-get install nvidia-cuda-toolkit -y
+RUN apt-get update && apt-get install nvidia-cuda-toolkit -y
 
 # Another way to install CUDA toolkit (nvcc)
 # RUN wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
